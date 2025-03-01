@@ -1,27 +1,27 @@
-## Bounding Box on objects using yolov5
+## Bounding Box on objects using YOLOv5
 
 The project uses YOLOv5 to detect objects in an image. The current threshold settings are 0.5.  
 
-if you want to test it locally -
+If you want to test it locally:
 1. Clone the repo
 2. Create a venv
-3. Run "pip install -r requirements.txt"
-4. Run the command: "streamlit run yolo.py"
+3. Run `pip install -r requirements.txt`
+4. Run the command: `streamlit run yolo.py`
 
 ### Results
 
 1. Image in daylight conditions
 
-![alt text](https://github.com/[prasannakotyal]/[yolov5]/blob/[master]/day.jpg?raw=true)
+![Daylight Image](https://github.com/prasannakotyal/yoloV5/blob/master/images/day.png)
 
 2. Image in night conditions
 
-![alt text](https://github.com/[prasannakotyal]/[yolov5]/blob/[master]/day.jpg?raw=true)
+![Night Image](https://github.com/prasannakotyal/yoloV5/blob/master/images/night.png)
 
-3. multiple images
+3. Multiple images
 
-![alt text](https://github.com/[prasannakotyal]/[yolov5]/blob/[master]/day.jpg?raw=true)
+![Multiple Images](https://github.com/prasannakotyal/yoloV5/blob/master/images/trio.png)
 
-4. image with noise around the main object
+4. Image with noise around the main object
 
-![alt text](https://github.com/[prasannakotyal]/[yolov5]/blob/[master]/day.jpg?raw=true)
+![Noisy Image](https://github.com/prasannakotyal/yoloV5/blob/master/images/fog.png)
